@@ -1,0 +1,9 @@
+{
+  "model": "claude-opus-5",
+  "stop_reason": "end_turn",
+  "text": "{\"C1\":{\"score\":10,\"justification\":\"Agent opens with company name, own name, and an offer of help immediately.\",\"evidence\":\"Thank you for calling Seguros Confianza, this is Roberto Anaya. Please note this call may be recorded for quality purposes. How can I help you today?\"},\"C2\":{\"score\":10,\"justification\":\"Agent gathered the full picture (new vehicle, financing status, driver, usage, VIN) and confirmed details back before completing the change.\",\"evidence\":\"Nice upgrade. Is it financed or paid in full? I ask because financing usually requires full coverage.\"},\"C3\":{\"score\":10,\"justification\":\"Recording disclosure is delivered in the first line and there are no prohibited statements; the premium stated is the result of an executed endorsement, not a pre-underwriting binding quote.\",\"evidence\":\"Please note this call may be recorded for quality purposes.\"},\"C4\":{\"score\":10,\"justification\":\"The customer's request was fully resolved on the call, with a recap and specific deliverables and timeframes.\",\"evidence\":\"You'll receive the updated declarations page and the new ID cards by email within the hour, and the physical cards by mail in about a week.\"},\"C5\":{\"score\":10,\"justification\":\"Agent was courteous, efficient, let the customer speak, and kept the call on track throughout.\",\"evidence\":\"My pleasure, Ms. Padilla. Enjoy the RAV4 and thanks for calling Seguros Confianza.\"}}",
+  "usage": {
+    "input_tokens": 3427,
+    "output_tokens": 676
+  }
+}

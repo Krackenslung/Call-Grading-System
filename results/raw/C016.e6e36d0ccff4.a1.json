@@ -1,0 +1,9 @@
+{
+  "model": "claude-opus-5",
+  "stop_reason": "end_turn",
+  "text": "{\"C1\":{\"score\":10,\"justification\":\"The agent opened with the company name, her own name, and an offer of help in the first line.\",\"evidence\":\"Thank you for calling Seguros Confianza, my name is Patricia Yee. This call may be recorded for quality purposes. How can I help?\"},\"C2\":{\"score\":5,\"justification\":\"The agent asked only about the vehicle and coverage type before quoting, with no exploration of driving history, current carrier, budget, or discount eligibility, so she pitched a rate on an incomplete picture.\",\"evidence\":\"Okay, a 2019 Compass. Give me one second to pull up the rater... Do you want full coverage or liability only?\"},\"C3\":{\"score\":10,\"justification\":\"Recording disclosure was given in the opening line and the price was explicitly qualified as subject to underwriting, with no guarantees or legal advice anywhere.\",\"evidence\":\"I'm showing one fifty-five a month with a five hundred deductible, and that's subject to underwriting confirmation.\"},\"C4\":{\"score\":5,\"justification\":\"The customer left to compare quotes and the follow-up promised had no specific owner or firm timeframe, making it a vague next step.\",\"evidence\":\"Someone will reach out this week or so.\"},\"C5\":{\"score\":10,\"justification\":\"The agent was courteous throughout, let the customer speak, acknowledged the price concern, and kept the short call on track without lapses.\",\"evidence\":\"I hear you. Without knowing more I'd say the deductible is the main lever, going to a thousand would drop it to around one forty.\"}}",
+  "usage": {
+    "input_tokens": 3119,
+    "output_tokens": 780
+  }
+}

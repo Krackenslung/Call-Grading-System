@@ -1,0 +1,9 @@
+{
+  "model": "claude-opus-5",
+  "stop_reason": "end_turn",
+  "text": "{\"C1\":{\"score\":10,\"justification\":\"The agent opens with the company name, her own name, and an offer of help right at the start of the call.\",\"evidence\":\"Gracias por llamar a Seguros Confianza, le atiende Mariana Solís. ... ¿En qué le puedo servir?\"},\"C2\":{\"score\":10,\"justification\":\"The agent asks about vehicle, current coverage, budget, priorities and usage before quoting, then explicitly confirms understanding.\",\"evidence\":\"Perfecto, entonces confirmo: Sentra 2021 Advance, uso personal, cobertura amplia, buscando bajar de mil ochocientos mensuales. ¿Correcto?\"},\"C3\":{\"score\":10,\"justification\":\"Recording disclosure is given in the opening and the price is explicitly conditioned on underwriting review with no guarantees or legal advice.\",\"evidence\":\"esta llamada puede ser grabada para fines de calidad ... la cifra queda sujeta a la revisión final de suscripción\"},\"C4\":{\"score\":10,\"justification\":\"The quote was delivered, documents emailed, and a concrete next step with a named owner and specific time was set.\",\"evidence\":\"Mañana le llamo a las diez de la mañana para confirmar que le llegó todo\"},\"C5\":{\"score\":10,\"justification\":\"The agent is courteous throughout, lets the customer answer fully, and keeps the call efficiently on track.\",\"evidence\":\"Gracias a usted por su confianza. Que tenga excelente tarde.\"}}",
+  "usage": {
+    "input_tokens": 3606,
+    "output_tokens": 505
+  }
+}

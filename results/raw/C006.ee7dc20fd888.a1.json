@@ -1,0 +1,9 @@
+{
+  "model": "claude-opus-5",
+  "stop_reason": "end_turn",
+  "text": "{\"C1\":{\"score\":10,\"justification\":\"Agent opens with company name, her own name, and an offer of help immediately.\",\"evidence\":\"Thank you for calling Seguros Confianza, this is Andrea Villalobos... What can I do for you today?\"},\"C2\":{\"score\":10,\"justification\":\"Agent asked about vehicle, current carrier and coverage, price, claims history, and usage, then recapped to confirm understanding before quoting.\",\"evidence\":\"Perfect, so: CX-5 2023, full coverage, five hundred deductible, clean record except glass, personal commute.\"},\"C3\":{\"score\":10,\"justification\":\"Recording disclosure given at the start and the quote was explicitly caveated as subject to underwriting, with no prohibited statements.\",\"evidence\":\"Quick note that this call may be recorded for quality purposes.\"},\"C4\":{\"score\":5,\"justification\":\"The quote was given but the follow-up has no specific owner or timeframe, leaving the customer's question unanswered.\",\"evidence\":\"Someone from the team will follow up, don't worry.\"},\"C5\":{\"score\":10,\"justification\":\"Agent was courteous, efficient, and kept the conversation on track without interrupting the customer.\",\"evidence\":\"Happy to help with that. Let me ask you a few things so the quote actually fits you.\"}}",
+  "usage": {
+    "input_tokens": 3356,
+    "output_tokens": 429
+  }
+}

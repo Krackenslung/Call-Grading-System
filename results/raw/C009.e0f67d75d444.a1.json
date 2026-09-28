@@ -1,0 +1,9 @@
+{
+  "model": "claude-opus-5",
+  "stop_reason": "end_turn",
+  "text": "{\"C1\":{\"score\":0,\"justification\":\"The agent gives a casual greeting and his first name but never states the company name anywhere, which the rubric defines as a 0-level failure.\",\"evidence\":\"Thanks for calling, this is Tony. Oh, this call may be recorded, by the way. What's up?\"},\"C2\":{\"score\":0,\"justification\":\"There is no discovery at all — the agent asks no questions about the driver, vehicle, or coverage needs, and in fact loses track of why the customer called.\",\"evidence\":\"so what was it you were calling about again?\"},\"C3\":{\"score\":10,\"justification\":\"A recording disclosure is delivered in the opening seconds and the agent makes no prohibited statements, explicitly declining to give a firm price before calculation.\",\"evidence\":\"Oh, this call may be recorded, by the way.\"},\"C4\":{\"score\":5,\"justification\":\"The add-driver request is only partially handled and the follow-up on pricing has no named owner or timeframe, making the next step vague.\",\"evidence\":\"It has to be calculated, so, um, someone would get back to you on the new amount.\"},\"C5\":{\"score\":5,\"justification\":\"The agent stays courteous but repeatedly derails with irrelevant anecdotes, dead air, and loses the thread of the customer's request.\",\"evidence\":\"man, it's really coming down out there today, is it raining where you are?\"}}",
+  "usage": {
+    "input_tokens": 3222,
+    "output_tokens": 1072
+  }
+}
