@@ -36,14 +36,16 @@ python run.py                     # grade all 30 calls, write results/, print th
 
 ## Time spent
 
-25 minutes Reading brief.md, rubric.md, labels.csv and understanding project 
-20 minutes Designed check list to qa and make sure project does what is expected 
-10 minutes Designing arquitecture and claude file 
-15 minutes Generated graeder with Claude code made project, added Claude API key 
-25 minuets Ran Manually filling checklist for qa
-15 minutes Ran program and verified results
-20 minutes Documentation of project 
+- 25 minutes Reading brief.md, rubric.md, labels.csv and understanding project 
+- 20 minutes Designed check list to qa and make sure project does what is expected 
+- 10 minutes Designing arquitecture and claude file 
+- 15 minutes Generated graeder with Claude code made project, added Claude API key 
+-  25 minuets Ran Manually filling checklist for qa
+-  15 minutes Ran program and verified results
+-  30 minutes Documentation of project 
 
 ## What I'd build next with one more day
 
+- **Second model evaluation.** Grade all calls with a second model and
+  compare. Where the two models disagree, Needs verification needs human review.
 

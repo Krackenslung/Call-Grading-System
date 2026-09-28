@@ -24,7 +24,7 @@ Done: No
 - [x]  Claims that a human was wrong **cite the transcript line**. Never just assert it.
 - [x]  You include a clear "**when NOT to trust the grader**" section, covering specific conditions like language mix, call type (sales vs. service), long calls, or particular criteria.
 - [x]  You recommend what should go to human review. For example: low-confidence scores, specific criteria, or calls where repeated runs disagree.
-- []  `FINDINGS.md` fits within about half a page to one page. Be sharp, not exhaustive.
+- [x]  `FINDINGS.md` fits within about half a page to one page. Be sharp, not exhaustive.
 
 #### 3. Functionality (the grader)
 
@@ -34,7 +34,7 @@ Done: No
 - [x]  The rubric text is loaded from `rubric.md` rather than hardcoded. The live session may well change the rubric.
 - [x]  It handles Spanish, English, and mixed calls. Spot-check a few of each.
 - [x]  Temperature is 0, or set low, for reproducibility.
-- []  `FINDINGS.md` exists, is complete, and is committed.
+- [x]  `FINDINGS.md` exists, is complete, and is committed.
 
 #### 4. Output validation
 
@@ -86,4 +86,4 @@ Done: No
 - [x]  You have a "what I'd build next with one more day" note. For example: confidence scoring, evidence quotes per criterion, a larger calibration set, inter-rater comparison, or human review routing.
 - [x]  Any mocked calls or free-tier limitations are disclosed.
 - [x]  No secrets are anywhere in the git history.
-- []  The repo link opens correctly, and all files are present: code, `FINDINGS.md`, `results/eval.md`, and the README.
+- [x]  The repo link opens correctly, and all files are present: code, `FINDINGS.md`, `results/eval.md`, and the README.
